@@ -3,7 +3,7 @@
 
 Follow these steps to run the extension locally:
 
-1) Download the repository into your computer
+1) Download the repository into your computer <br> 
 2) Open Google Chrome and go to "chrome://extensions"
 3) Enable developer mode by checking the box on the upper right corner
 4) Click "Load unpacked extension" 
