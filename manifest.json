@@ -1,0 +1,17 @@
+
+{ "version": "0.0.0.1",
+  "manifest_version": 2,
+  "name": "To-do List",
+  "version": "1.0",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "content_scripts": [{
+    "matches": ["http://*/"],
+    "css": [ "mycss.css" ],
+        "js": ["jquery-3.1.1.min.js",
+               "popup.js"]
+    }]
+
+
+}

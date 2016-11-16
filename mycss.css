@@ -1,0 +1,63 @@
+*{
+  transition: 0.4s;
+}
+body{
+  transition: background 1s !important;
+
+text-align: center;
+padding: 40px;}
+
+#item{
+	width: 350px;
+	height: 50px;
+	font-size: 30px;
+    padding-left: 20px;
+	padding-right: 20px;
+
+}
+input[type=text]:focus{
+	outline: none;
+}
+input[type=submit] {
+	padding: 5px;
+    border: none;
+    height: 35px;
+    width: 100px;
+    cursor:pointer;
+    font-size: 150%;
+   	background-color: white;
+   	border: 2px solid black;
+   	margin: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: 0.4s;
+}
+input[type=submit]:focus{
+	outline: none;
+}
+.list{
+	text-align: left;
+}
+.listitem{
+	font-size: 25px;
+}
+.quote{
+  font-size: 15px;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+.delete, .delete:focus{
+  border: none;
+  outline: none;
+  width: 48px;
+  height: 48px;
+  font-size: 30px;
+  background-color: transparent;
+}
+.delete:hover{
+  color: #d1d3d6;
+}
